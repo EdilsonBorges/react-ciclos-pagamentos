@@ -13,4 +13,8 @@ BillingCycle.route('count', (req, res, next) => {
 	});
 });
 
+BillingCycle.route('summary', (req, res, next) => {
+	res.send('ok');
+});
+
 module.exports = BillingCycle;
